@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700');
+
+*
+{
+	margin: 0;
+	font-family: "Roboto", "Calibri", "Arial", sans-serif;
+}
+
+body
+{
+	background-image: url('Images/bg.jpg');
+	background-image: no-repeat;
+}
+
+.principal
+{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.box h1
+{
+	color: #FFFFFF;
+	text-shadow: 3px 3px 2px #000000;
+	text-align: center;
+}
+
+.box table
+{
+	border-color: #FFFFFF;
+	width: 600px;
+}
+
+.box table tr
+{
+	width: 200px;
+	background-image: radial-gradient(#A8A8A8, #E3E3E3);
+}
+
+.box table td
+{
+	color: #000000;
+	font-size: 16pt;
+	text-align: center;
+	font-weight: 300;
+}
+
+.box a
+{
+	color: #535353;
+	font-weight: 700;
+	font-style: italic;
+	text-decoration: none;
+	transition: 0.4s all;
+}
+
+.box a:hover
+{
+	color: #0072FF;
+}
+
+
